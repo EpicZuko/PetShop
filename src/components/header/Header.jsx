@@ -57,7 +57,7 @@ const Navigation = styled.nav`
    }
 `
 
-const NavLink = styled.a`
+export const NavLink = styled.a`
    text-decoration: none;
    color: var(--Dark-Dark-1, #5a5a5a);
    font-feature-settings:
@@ -71,7 +71,7 @@ const NavLink = styled.a`
    line-height: 22px;
 `
 
-const ContactButton = styled.button`
+export const ContactButton = styled.button`
    border-radius: 6px;
    background: var(--Primary-Main, #f87661);
    border: none;
